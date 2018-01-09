@@ -1,0 +1,24 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/ApiClient/bin/Debug/netcoreapp2.0
+/ApiClient/obj
+/BeProtected.WebApi2/bin/Debug/netcoreapp2.0
+/BeProtected.WebApi2/obj
+/ConsoleAppClient/bin/Debug/netcoreapp2.0
+/ConsoleAppClient/obj
+/HybridAndClientCredentials.MvcClient/bin/Debug/netcoreapp2.0
+/HybridAndClientCredentials.MvcClient/obj
+/IdentityServerQuickStart/bin/Debug/netcoreapp2.0
+/IdentityServerQuickStart/obj
+/IdentityServerQuickStartWithUI/bin/Debug/netcoreapp2.0
+/IdentityServerQuickStartWithUI/obj
+/IdentityServerQuickStartWithUIAndDb/bin/Debug/netcoreapp2.0
+/IdentityServerQuickStartWithUIAndDb/obj
+/ImplicitFlow.MvcClient/bin/Debug/netcoreapp2.0
+/ImplicitFlow.MvcClient/obj
+/JavaScriptClient/bin/Debug/netcoreapp2.0
+/JavaScriptClient/obj
+/ResourceOwnerPassword.ConsoleAppClient/bin/Debug/netcoreapp2.0
+/ResourceOwnerPassword.ConsoleAppClient/obj

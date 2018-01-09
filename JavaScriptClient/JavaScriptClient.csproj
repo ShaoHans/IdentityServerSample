@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\bower_components\oidc-client\.bower.json" />
+    <Content Include="wwwroot\bower_components\oidc-client\bower.json" />
+    <Content Include="wwwroot\bower_components\oidc-client\jsconfig.json" />
+    <Content Include="wwwroot\bower_components\oidc-client\package.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\bower_components\oidc-client\dist\oidc-client.js" />
+    <None Include="wwwroot\bower_components\oidc-client\dist\oidc-client.min.js" />
+    <None Include="wwwroot\bower_components\oidc-client\GitReleaseManager.yaml" />
+    <None Include="wwwroot\bower_components\oidc-client\gulpfile.js" />
+    <None Include="wwwroot\bower_components\oidc-client\index.js" />
+    <None Include="wwwroot\bower_components\oidc-client\LICENSE" />
+    <None Include="wwwroot\bower_components\oidc-client\README.md" />
+    <None Include="wwwroot\bower_components\oidc-client\webpack.base.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="wwwroot\bower_components\oidc-client\index.d.ts" />
+  </ItemGroup>
+
+</Project>
